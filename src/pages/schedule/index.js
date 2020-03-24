@@ -1,8 +1,6 @@
 import React from 'react'
 import { navigate } from 'gatsby-link'
 import Layout from '../../components/Layout'
-import 'summit-schedule-app/dist/main.js'
-import 'summit-schedule-app/dist/main.css'
 
 function encode(data) {
   return Object.keys(data)
@@ -42,16 +40,7 @@ export default class Index extends React.Component {
           <div className="container">
             <div className="content">
               <h1>Show Schedule</h1>
-              <summit-schedule
-                  summit_id="27"
-                  api_access_token=""
-                  api_url="https://testresource-server.openstack.org"
-                  schedule_base="schedule"
-                  schedule_url="localhost/schedule"
-                  login_url="login-url-not-set"
-                  calendar_instructions_link="calendar-instructions-link-not-set"
-                  venues_page_link="venues-page-not-set"
-              />
+             NADA
             </div>
           </div>
         </section>
